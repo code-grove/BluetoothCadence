@@ -11,6 +11,9 @@
 		37DEF3D72C57752700490904 /* BluetoothCadence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DEF3CC2C57752700490904 /* BluetoothCadence.framework */; };
 		37DEF3DC2C57752700490904 /* BluetoothCadenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DEF3DB2C57752700490904 /* BluetoothCadenceTests.swift */; };
 		37DEF3DD2C57752700490904 /* BluetoothCadence.h in Headers */ = {isa = PBXBuildFile; fileRef = 37DEF3CF2C57752700490904 /* BluetoothCadence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37E6FBAB2C5777E600304CAF /* BTConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E6FBAA2C5777E600304CAF /* BTConstants.swift */; };
+		37E6FBAD2C5778F700304CAF /* BluetoothManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E6FBAC2C5778F700304CAF /* BluetoothManagerDelegate.swift */; };
+		37E6FBAF2C57792A00304CAF /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E6FBAE2C57792A00304CAF /* BluetoothManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		37DEF3D02C57752700490904 /* BluetoothCadence.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = BluetoothCadence.docc; sourceTree = "<group>"; };
 		37DEF3D62C57752700490904 /* BluetoothCadenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothCadenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DEF3DB2C57752700490904 /* BluetoothCadenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothCadenceTests.swift; sourceTree = "<group>"; };
+		37E6FBAA2C5777E600304CAF /* BTConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTConstants.swift; sourceTree = "<group>"; };
+		37E6FBAC2C5778F700304CAF /* BluetoothManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManagerDelegate.swift; sourceTree = "<group>"; };
+		37E6FBAE2C57792A00304CAF /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 			children = (
 				37DEF3CF2C57752700490904 /* BluetoothCadence.h */,
 				37DEF3D02C57752700490904 /* BluetoothCadence.docc */,
+				37E6FBAA2C5777E600304CAF /* BTConstants.swift */,
+				37E6FBAC2C5778F700304CAF /* BluetoothManagerDelegate.swift */,
+				37E6FBAE2C57792A00304CAF /* BluetoothManager.swift */,
 			);
 			path = BluetoothCadence;
 			sourceTree = "<group>";
@@ -195,6 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				37DEF3D12C57752700490904 /* BluetoothCadence.docc in Sources */,
+				37E6FBAD2C5778F700304CAF /* BluetoothManagerDelegate.swift in Sources */,
+				37E6FBAF2C57792A00304CAF /* BluetoothManager.swift in Sources */,
+				37E6FBAB2C5777E600304CAF /* BTConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +423,7 @@
 		37DEF3E42C57752700490904 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 59FP2PXRXK;
@@ -427,6 +440,7 @@
 		37DEF3E52C57752700490904 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 59FP2PXRXK;
