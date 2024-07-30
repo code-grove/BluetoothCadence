@@ -25,7 +25,7 @@ BluetoothCadence는 iOS 애플리케이션에서 Bluetooth 케이던스 센서�
 ### Swift Package Manager
 
 1. Xcode에서 File > Swift Packages > Add Package Dependency를 선택합니다.
-2. 프로젝트의 GitHub URL을 입력합니다: `https://github.com/yourusername/BluetoothCadence.git`
+2. 프로젝트의 GitHub URL을 입력합니다: `https://github.com/code-grove/BluetoothCadence.git`
 3. 버전 또는 브랜치를 선택하고 "Next"를 클릭합니다.
 4. "Finish"를 클릭하여 설치를 완료합니다.
 
