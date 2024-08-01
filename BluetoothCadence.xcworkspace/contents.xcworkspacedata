@@ -7,4 +7,7 @@
    <FileRef
       location = "group:BluetoothCadence-Demo/BluetoothCadence-Demo.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:BluetoothCadence-Demo-UIKit/BluetoothCadence-Demo-UIKit.xcodeproj">
+   </FileRef>
 </Workspace>
