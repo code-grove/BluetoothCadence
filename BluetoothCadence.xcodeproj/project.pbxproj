@@ -59,8 +59,8 @@
 		37DEF3C22C57752700490904 = {
 			isa = PBXGroup;
 			children = (
-				37DEF3CE2C57752700490904 /* BluetoothCadence */,
-				37DEF3DA2C57752700490904 /* BluetoothCadenceTests */,
+				37DEF3CE2C57752700490904 /* Sources */,
+				37DEF3DA2C57752700490904 /* Tests */,
 				37DEF3CD2C57752700490904 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37DEF3CE2C57752700490904 /* BluetoothCadence */ = {
+		37DEF3CE2C57752700490904 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				37DEF3CF2C57752700490904 /* BluetoothCadence.h */,
@@ -83,15 +83,15 @@
 				37E6FBAC2C5778F700304CAF /* BluetoothManagerDelegate.swift */,
 				37E6FBAE2C57792A00304CAF /* BluetoothManager.swift */,
 			);
-			path = BluetoothCadence;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		37DEF3DA2C57752700490904 /* BluetoothCadenceTests */ = {
+		37DEF3DA2C57752700490904 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				37DEF3DB2C57752700490904 /* BluetoothCadenceTests.swift */,
 			);
-			path = BluetoothCadenceTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
